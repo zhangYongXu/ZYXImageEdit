@@ -29,9 +29,6 @@
     
     CGContextRef contextRef = UIGraphicsGetCurrentContext();
     
-    ////绘制Clip区域
-    CGRect myRect = rect;
-    
     
     UIBezierPath * clipPath = path;
     CGContextAddPath(contextRef, clipPath.CGPath);
@@ -105,41 +102,6 @@
     
     return dImage;
 };
-
--(UIImage*)imageResize:(CGSize)size{
-    UIImage * image  = self;
-    CGFloat percent = image.size.width/size.width;
-    CGSize contentSize = CGSizeMake(percent*size.width, percent*size.height);
-    
-    
-    
-    //开始绘制图片
-    //UIGraphicsBeginImageContext(image.size);
-    UIGraphicsBeginImageContext(contentSize);
-
-    CGContextRef contextRef = UIGraphicsGetCurrentContext();
-    
-    //坐标系转换
-    //因为CGContextDrawImage会使用Quartz内的以左下角为(0,0)的坐标系
-    CGContextTranslateCTM(contextRef, 0, image.size.height);
-    CGContextScaleCTM(contextRef, image.scale, -image.scale);
-
-    CGFloat dx = 0;
-    CGFloat dy = (image.size.height - contentSize.height)/2.0;
-    CGRect drawRect = CGRectMake(dx, dy, image.size.width, image.size.height);
-    CGContextDrawImage(contextRef, drawRect, [image CGImage]);
-    //结束绘画
-    UIImage *destImg = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    
-    
-    //转成png格式 会保留透明
-    NSData * data = UIImagePNGRepresentation(destImg);
-    UIImage * dImage = [UIImage imageWithData:data];
-    
-    //return destImg;
-    return dImage;
-}
 
 
 @end

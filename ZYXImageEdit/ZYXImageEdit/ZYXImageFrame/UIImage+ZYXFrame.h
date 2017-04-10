@@ -12,6 +12,5 @@
 //矩形图片
 -(UIImage*)frameSquareClipInRect:(CGRect)rect;
 -(UIImage*)frameAddImage:(UIImage*)topImage;
--(UIImage*)imageResize:(CGSize)size;
-+(void)test;
+
 @end
