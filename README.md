@@ -1,6 +1,7 @@
 # ZYXImageEdit
 图片不同形状的裁剪，和自由形状裁剪，图片边缘模糊。图片添加相框。
 使用简单：
+
     ZYXImageEditViewController * imageEditVc = [[ZYXImageEditViewController alloc] init];
     imageEditVc.image = [image fixOrientation];
     imageEditVc.hidesBottomBarWhenPushed = YES;
@@ -11,6 +12,8 @@
     }];
     GWRootNavigationViewController * nvc = [[GWRootNavigationViewController navitionVCArray] lastObject];
     [nvc pushViewController:imageEditVc animated:YES];
+    
 效果：
+
 ![image](https://github.com/zhangYongXu/ZYXImageEdit/blob/master/Untitled.gif)
     
