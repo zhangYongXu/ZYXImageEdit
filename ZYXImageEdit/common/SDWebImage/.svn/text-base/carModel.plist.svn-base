@@ -1,0 +1,3473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Maps</key>
+	<dict>
+		<key>A</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<integer>1</integer>
+				<key>name</key>
+				<string>奥迪</string>
+				<key>detail</key>
+				<dict>
+					<key>一汽-大众奥迪：</key>
+<array>
+<string>A3</string>
+<string>A4L</string>
+<string>A6L</string>
+<string>Q3</string>
+<string>O5</string>
+<string>A1</string>
+<string>A3</string>
+<string>A4</string>
+<string>A5</string>
+<string>A6</string>
+<string>A7</string>
+<string>A8L</string>
+<string>Q3</string>
+<string>Q5</string>
+<string>Q7</string>
+<string>R8</string>
+<string>RS7</string>
+<string>RS5</string>
+<string>S3</string>
+<string>S4</string>
+<string>S5</string>
+<string>S6</string>
+<string>S7</string>
+<string>S8</string>
+<string>SQ5</string>
+<string>TT</string>
+<string>TTS</string>
+</array>
+<key>进口奥迪：</key>
+<array>
+<string>A3</string>
+<string>A4L</string>
+<string>A6L</string>
+<string>Q3</string>
+<string>O5</string>
+<string>A1</string>
+<string>A3</string>
+<string>A4</string>
+<string>A5</string>
+<string>A6</string>
+<string>A7</string>
+<string>A8L</string>
+<string>Q3</string>
+<string>Q5</string>
+<string>Q7</string>
+<string>R8</string>
+<string>RS7</string>
+<string>RS5</string>
+<string>S3</string>
+<string>S4</string>
+<string>S5</string>
+<string>S6</string>
+<string>S7</string>
+<string>S8</string>
+<string>SQ5</string>
+<string>TT</string>
+<string>TTS</string>
+</array>				</dict>
+
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>2</integer>
+				<key>name</key>
+				<string>阿尔法罗密欧</string>
+				<key>detail</key>
+				<dict>
+					<key>阿尔法罗密欧</key>
+<array>
+<string>ALFA MiTo</string>
+<string>Giulietta</string>
+<string>4C</string>
+<string>ALFA GT</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>3</integer>
+				<key>name</key>
+				<string>阿斯顿•马丁</string>
+				<key>detail</key>
+<dict>
+<key>阿斯顿•马丁</key>
+<array>
+<string>Rapide</string>
+<string>V8 Vantage</string>
+<string>V12 Vantage</string>
+<string>DB9</string>
+<string>Vanquish</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>4</integer>
+				<key>name</key>
+				<string>安凯客车</string>
+				<key>detail</key>
+<dict>
+<key>宝斯通</key>
+<array>
+<string>宝斯通</string>
+</array>
+</dict>
+			</dict>
+		</array>
+		<key>B</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<integer>5</integer>
+				<key>name</key>
+				<string>别克</string>
+				<key>detail</key>
+<dict>
+<key>进口别克</key>
+<array>
+<string>凯越</string>
+<string>英朗</string>
+<string>君威</string>
+<string>君越</string>
+<string>昂科拉</string>
+<string>昂科威</string>
+<string>别克GL8</string>
+<string>昂科雷</string>
+</array>
+<key>通用别克</key>
+<array>
+<string>凯越</string>
+<string>英朗</string>
+<string>君威</string>
+<string>君越</string>
+<string>昂科拉</string>
+<string>昂科威</string>
+<string>别克GL8</string>
+<string>昂科雷</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>6</integer>
+				<key>name</key>
+				<string>比亚迪</string>
+				<key>detail</key>
+<dict>
+<key>比亚迪</key>
+<array>
+<string>e6</string>
+<string>F0</string>
+<string>F3</string>
+<string>G3</string>
+<string>G3R</string>
+<string>G5</string>
+<string>G6</string>
+<string>L3</string>
+<string>M6</string>
+<string>S6</string>
+<string>S7</string>
+<string>速锐</string>
+<string>思锐</string>
+<string>秦</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>7</integer>
+				<key>name</key>
+				<string>宝马</string>
+				<key>detail</key>
+				<dict>
+					<key>华晨宝马</key>
+<array>
+<string>3系</string>
+<string>5系</string>
+<string>X1</string>
+<string>i3</string>
+<string>i8</string>
+<string>1系</string>
+<string>2系</string>
+<string>3系</string>
+<string>3系GT</string>
+<string>4系</string>
+<string>5系</string>
+<string>5系GT</string>
+<string>6系</string>
+<string>7系</string>
+<string>X3</string>
+<string>X4</string>
+<string>X5</string>
+<string>X6</string>
+<string>Z4</string>
+<string>M3</string>
+<string>M4</string>
+<string>M5</string>
+<string>M6</string>
+<string>X5 M</string>
+<string>X6 M</string>
+</array>
+<key>宝马M</key>
+<array>
+<string>3系</string>
+<string>5系</string>
+<string>X1</string>
+<string>i3</string>
+<string>i8</string>
+<string>1系</string>
+<string>2系</string>
+<string>3系</string>
+<string>3系GT</string>
+<string>4系</string>
+<string>5系</string>
+<string>5系GT</string>
+<string>6系</string>
+<string>7系</string>
+<string>X3</string>
+<string>X4</string>
+<string>X5</string>
+<string>X6</string>
+<string>Z4</string>
+<string>M3</string>
+<string>M4</string>
+<string>M5</string>
+<string>M6</string>
+<string>X5 M</string>
+<string>X6 M</string>
+</array>
+<key>进口宝马</key>
+<array>
+<string>3系</string>
+<string>5系</string>
+<string>X1</string>
+<string>i3</string>
+<string>i8</string>
+<string>1系</string>
+<string>2系</string>
+<string>3系</string>
+<string>3系GT</string>
+<string>4系</string>
+<string>5系</string>
+<string>5系GT</string>
+<string>6系</string>
+<string>7系</string>
+<string>X3</string>
+<string>X4</string>
+<string>X5</string>
+<string>X6</string>
+<string>Z4</string>
+<string>M3</string>
+<string>M4</string>
+<string>M5</string>
+<string>M6</string>
+<string>X5 M</string>
+<string>X6 M</string>
+</array>
+				</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>8</integer>
+				<key>name</key>
+				<string>本田</string>
+				<key>detail</key>
+<dict>
+<key>东风本田</key>
+<array>
+<string>艾力绅</string>
+<string>CR-V</string>
+<string>杰德</string>
+<string>XR-V</string>
+<string>思铂睿</string>
+<string>思域</string>
+<string>奥德赛</string>
+<string>缤智</string>
+<string>飞度</string>
+<string>锋范</string>
+<string>歌诗图</string>
+<string>凌派</string>
+<string>雅阁</string>
+<string>CR-Z</string>
+<string>INSIGHT</string>
+<string>飞度Hybrid</string>
+</array>
+<key>广汽本田</key>
+<array>
+<string>艾力绅</string>
+<string>CR-V</string>
+<string>杰德</string>
+<string>XR-V</string>
+<string>思铂睿</string>
+<string>思域</string>
+<string>奥德赛</string>
+<string>缤智</string>
+<string>飞度</string>
+<string>锋范</string>
+<string>歌诗图</string>
+<string>凌派</string>
+<string>雅阁</string>
+<string>CR-Z</string>
+<string>INSIGHT</string>
+<string>飞度Hybrid</string>
+</array>
+<key>本田进口</key>
+<array>
+<string>艾力绅</string>
+<string>CR-V</string>
+<string>杰德</string>
+<string>XR-V</string>
+<string>思铂睿</string>
+<string>思域</string>
+<string>奥德赛</string>
+<string>缤智</string>
+<string>飞度</string>
+<string>锋范</string>
+<string>歌诗图</string>
+<string>凌派</string>
+<string>雅阁</string>
+<string>CR-Z</string>
+<string>INSIGHT</string>
+<string>飞度Hybrid</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>9</integer>
+				<key>name</key>
+				<string>奔驰</string>
+				<key>detail</key>
+<dict>
+<key>北汽奔驰</key>
+<array>
+<string>C级</string>
+<string>E级</string>
+<string>GLK级</string>
+<string>凌特</string>
+<string>威霆</string>
+<string>唯雅诺</string>
+<string>A级</string>
+<string>B级</string>
+<string>CLA级</string>
+<string>CLS级</string>
+<string>C级旅行</string>
+<string>C级双门</string>
+<string>E级敞篷</string>
+<string>E级双门</string>
+<string>GLA级</string>
+<string>GL级车</string>
+<string>G级</string>
+<string>M级</string>
+<string>R级</string>
+<string>SLK级</string>
+<string>SL级</string>
+<string>S级</string>
+<string>S级 coupe</string>
+<string>S级混合动力</string>
+<string>唯雅诺</string>
+<string>A45 AMG</string>
+<string>C63 AMG</string>
+<string>CLA45 AMG</string>
+<string>CLS级 AMG</string>
+<string>GLA45 AMG</string>
+<string>GL级AMG</string>
+<string>G级AM</string>
+<string>ML63 AMG</string>
+<string>SLS级 AMG</string>
+<string>SL级AMG</string>
+<string>S级 AMG</string>
+<string>S级AMG Coupe</string>
+</array>
+<key>奔驰AMG</key>
+<array>
+<string>C级</string>
+<string>E级</string>
+<string>GLK级</string>
+<string>凌特</string>
+<string>威霆</string>
+<string>唯雅诺</string>
+<string>A级</string>
+<string>B级</string>
+<string>CLA级</string>
+<string>CLS级</string>
+<string>C级旅行</string>
+<string>C级双门</string>
+<string>E级敞篷</string>
+<string>E级双门</string>
+<string>GLA级</string>
+<string>GL级车</string>
+<string>G级</string>
+<string>M级</string>
+<string>R级</string>
+<string>SLK级</string>
+<string>SL级</string>
+<string>S级</string>
+<string>S级 coupe</string>
+<string>S级混合动力</string>
+<string>唯雅诺</string>
+<string>A45 AMG</string>
+<string>C63 AMG</string>
+<string>CLA45 AMG</string>
+<string>CLS级 AMG</string>
+<string>GLA45 AMG</string>
+<string>GL级AMG</string>
+<string>G级AM</string>
+<string>ML63 AMG</string>
+<string>SLS级 AMG</string>
+<string>SL级AMG</string>
+<string>S级 AMG</string>
+<string>S级AMG Coupe</string>
+</array>
+<key>福建奔驰</key>
+<array>
+<string>C级</string>
+<string>E级</string>
+<string>GLK级</string>
+<string>凌特</string>
+<string>威霆</string>
+<string>唯雅诺</string>
+<string>A级</string>
+<string>B级</string>
+<string>CLA级</string>
+<string>CLS级</string>
+<string>C级旅行</string>
+<string>C级双门</string>
+<string>E级敞篷</string>
+<string>E级双门</string>
+<string>GLA级</string>
+<string>GL级车</string>
+<string>G级</string>
+<string>M级</string>
+<string>R级</string>
+<string>SLK级</string>
+<string>SL级</string>
+<string>S级</string>
+<string>S级 coupe</string>
+<string>S级混合动力</string>
+<string>唯雅诺</string>
+<string>A45 AMG</string>
+<string>C63 AMG</string>
+<string>CLA45 AMG</string>
+<string>CLS级 AMG</string>
+<string>GLA45 AMG</string>
+<string>GL级AMG</string>
+<string>G级AM</string>
+<string>ML63 AMG</string>
+<string>SLS级 AMG</string>
+<string>SL级AMG</string>
+<string>S级 AMG</string>
+<string>S级AMG Coupe</string>
+</array>
+<key>进口奔驰</key>
+<array>
+<string>C级</string>
+<string>E级</string>
+<string>GLK级</string>
+<string>凌特</string>
+<string>威霆</string>
+<string>唯雅诺</string>
+<string>A级</string>
+<string>B级</string>
+<string>CLA级</string>
+<string>CLS级</string>
+<string>C级旅行</string>
+<string>C级双门</string>
+<string>E级敞篷</string>
+<string>E级双门</string>
+<string>GLA级</string>
+<string>GL级车</string>
+<string>G级</string>
+<string>M级</string>
+<string>R级</string>
+<string>SLK级</string>
+<string>SL级</string>
+<string>S级</string>
+<string>S级 coupe</string>
+<string>S级混合动力</string>
+<string>唯雅诺</string>
+<string>A45 AMG</string>
+<string>C63 AMG</string>
+<string>CLA45 AMG</string>
+<string>CLS级 AMG</string>
+<string>GLA45 AMG</string>
+<string>GL级AMG</string>
+<string>G级AM</string>
+<string>ML63 AMG</string>
+<string>SLS级 AMG</string>
+<string>SL级AMG</string>
+<string>S级 AMG</string>
+<string>S级AMG Coupe</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>10</integer>
+				<key>name</key>
+				<string>标致</string>
+<key>detail</key>
+<dict>
+<key>东风标致</key>
+<array>
+<string>2008</string>
+<string>3008</string>
+<string>301</string>
+<string>307</string>
+<string>308</string>
+<string>408</string>
+<string>508</string>
+<string>Cross 307</string>
+<string>207CC</string>
+<string>308CC</string>
+<string>308SW</string>
+<string>4008</string>
+<string>RCZ</string>
+</array>
+<key>进口标致</key>
+<array>
+<string>2008</string>
+<string>3008</string>
+<string>301</string>
+<string>307</string>
+<string>308</string>
+<string>408</string>
+<string>508</string>
+<string>Cross 307</string>
+<string>207CC</string>
+<string>308CC</string>
+<string>308SW</string>
+<string>4008</string>
+<string>RCZ</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>11</integer>
+				<key>name</key>
+				<string>保时捷</string>
+<key>detail</key>
+<dict>
+<key>保时捷</key>
+<array>
+<string>911</string>
+<string>918 Spyder</string>
+<string>Boxster</string>
+<string>Cayenne</string>
+<string>Cayman</string>
+<string>Macan</string>
+<string>Panamera</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>12</integer>
+				<key>name</key>
+				<string>奔腾</string>
+<key>detail</key>
+<dict>
+<key>奔腾</key>
+<array>
+<string>B50</string>
+<string>B70</string>
+<string>B90</string>
+<string>X80</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>13</integer>
+				<key>name</key>
+				<string>宝俊</string>
+<key>detail</key>
+<dict>
+<key>宝俊</key>
+<array>
+<string>610</string>
+<string>630</string>
+<string>730</string>
+<string>乐驰</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>14</integer>
+				<key>name</key>
+				<string>北汽制造</string>
+<key>detail</key>
+<dict>
+<key>北汽制造</key>
+<array>
+<string>BJ 212</string>
+<string>陆霸</string>
+<string>陆铃</string>
+<string>骑士S12</string>
+<string>锐铃</string>
+<string>勇士</string>
+<string>域胜007</string>
+<string>越铃</string>
+<string>战旗</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>15</integer>
+				<key>name</key>
+				<string>北京汽车</string>
+<key>detail</key>
+<dict>
+<key>北京汽车</key>
+<array>
+<string>E系列</string>
+<string>北京40</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>16</integer>
+				<key>name</key>
+				<string>北汽新能源</string>
+<key>detail</key>
+<dict>
+<key>北汽新能源</key>
+<array>
+<string>E150EV</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>17</integer>
+				<key>name</key>
+				<string>北汽威旺</string>
+<key>detail</key>
+<dict>
+<key>北汽威旺</key>
+<array>
+<string>205</string>
+<string>306</string>
+<string>307</string>
+<string>M20</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>18</integer>
+				<key>name</key>
+				<string>北汽幻速</string>
+<key>detail</key>
+<dict>
+<key>北汽幻速</key>
+<array>
+<string>S2</string>
+<string>S3</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>19</integer>
+				<key>name</key>
+				<string>布加迪</string>
+<key>detail</key>
+<dict>
+<key>布加迪</key>
+<array>
+<string>威航</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>20</integer>
+				<key>name</key>
+				<string>宾利</string>
+<key>detail</key>
+<dict>
+<key>宾利</key>
+<array>
+<string>慕尚</string>
+<string>飞驰</string>
+<string>欧陆</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>21</integer>
+				<key>name</key>
+				<string>巴博斯</string>
+<key>detail</key>
+<dict>
+<key>巴博斯</key>
+<array>
+<string>巴博斯 CLS级</string>
+<string>巴博斯 S级</string>
+<string>巴博斯 M级</string>
+<string>巴博斯 SLK级</string>
+</array>
+</dict>
+			</dict>
+		</array>
+		<key>C</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<integer>22</integer>
+				<key>name</key>
+				<string>昌河</string>
+<key>detail</key>
+<dict>
+<key>昌河</key>
+<array>
+<string>福瑞达</string>
+<string>福瑞达M50</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>23</integer>
+				<key>name</key>
+				<string>成功汽车</string>
+<key>detail</key>
+<dict>
+<key>成功汽车</key>
+<array>
+<string>K1</string>
+<string>K2</string>
+<string>V1</string>
+<string>V2</string>
+<string>X1</string>
+</array>
+</dict>
+			</dict>
+		</array>
+		<key>D</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<integer>27</integer>
+				<key>name</key>
+				<string>道奇</string>
+<key>detail</key>
+<dict>
+<key>道奇</key>
+<array>
+<string>Ram</string>
+<string>酷搏</string>
+<string>酷威</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>28</integer>
+				<key>name</key>
+				<string>大众</string>
+<key>detail</key>
+<dict>
+<key>一汽大众</key>
+<array>
+<string>Polo</string>
+<string>朗境</string>
+<string>朗行</string>
+<string>朗逸</string>
+<string>帕萨特</string>
+<string>途安</string>
+<string>途观</string>
+<string>新桑塔纳</string>
+<string>CC</string>
+<string>宝来</string>
+<string>高尔夫</string>
+<string>高尔夫GTI</string>
+<string>捷达</string>
+<string>迈腾</string>
+<string>速腾</string>
+<string>Eos</string>
+<string>Tiguan</string>
+<string>大众up!</string>
+<string>高尔夫</string>
+<string>辉腾</string>
+<string>甲壳虫</string>
+<string>凯路威</string>
+<string>迈特威</string>
+<string>迈腾</string>
+<string>尚酷</string>
+<string>途锐</string>
+<string>夏朗</string>
+</array>
+<key>上海大众</key>
+<array>
+<string>Polo</string>
+<string>朗境</string>
+<string>朗行</string>
+<string>朗逸</string>
+<string>帕萨特</string>
+<string>途安</string>
+<string>途观</string>
+<string>新桑塔纳</string>
+<string>CC</string>
+<string>宝来</string>
+<string>高尔夫</string>
+<string>高尔夫GTI</string>
+<string>捷达</string>
+<string>迈腾</string>
+<string>速腾</string>
+<string>Eos</string>
+<string>Tiguan</string>
+<string>大众up!</string>
+<string>高尔夫</string>
+<string>辉腾</string>
+<string>甲壳虫</string>
+<string>凯路威</string>
+<string>迈特威</string>
+<string>迈腾</string>
+<string>尚酷</string>
+<string>途锐</string>
+<string>夏朗</string>
+</array>
+<key>进口大众</key>
+<array>
+<string>Polo</string>
+<string>朗境</string>
+<string>朗行</string>
+<string>朗逸</string>
+<string>帕萨特</string>
+<string>途安</string>
+<string>途观</string>
+<string>新桑塔纳</string>
+<string>CC</string>
+<string>宝来</string>
+<string>高尔夫</string>
+<string>高尔夫GTI</string>
+<string>捷达</string>
+<string>迈腾</string>
+<string>速腾</string>
+<string>Eos</string>
+<string>Tiguan</string>
+<string>大众up!</string>
+<string>高尔夫</string>
+<string>辉腾</string>
+<string>甲壳虫</string>
+<string>凯路威</string>
+<string>迈特威</string>
+<string>迈腾</string>
+<string>尚酷</string>
+<string>途锐</string>
+<string>夏朗</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>29</integer>
+				<key>name</key>
+				<string>DS</string>
+<key>detail</key>
+<dict>
+<key>长安标致雪铁龙</key>
+<array>
+<string>DS 5LS</string>
+<string>DS 5</string>
+<string>DS 6</string>
+<string>DS 3</string>
+<string>DS 4</string>
+<string>E</string>
+</array>
+<key>雪铁龙(进口)</key>
+<array>
+<string>DS 5LS</string>
+<string>DS 5</string>
+<string>DS 6</string>
+<string>DS 3</string>
+<string>DS 4</string>
+<string>E</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>30</integer>
+				<key>name</key>
+				<string>东风</string>
+<key>detail</key>
+<dict>
+<key>东风</key>
+<array>
+<string>虎视</string>
+<string>御风</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>31</integer>
+				<key>name</key>
+				<string>东风风神</string>
+<key>detail</key>
+<dict>
+<key>东风风神</key>
+<array>
+<string>A30</string>
+<string>A60</string>
+<string>AX7</string>
+<string>H30</string>
+<string>S30</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>32</integer>
+				<key>name</key>
+				<string>东风风行</string>
+<key>detail</key>
+<dict>
+<key>东风风行</key>
+<array>
+<string>CM7</string>
+<string>景逸</string>
+<string>景逸LV</string>
+<string>景逸S50</string>
+<string>景逸X3</string>
+<string>景逸X5</string>
+<string>菱智</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>33</integer>
+				<key>name</key>
+				<string>东风小康</string>
+<key>detail</key>
+<dict>
+<key>东风小康</key>
+<array>
+<string>C35</string>
+<string>C36</string>
+<string>C37</string>
+<string>K17</string>
+<string>V07S</string>
+<string>风光</string>
+<string>K01</string>
+<string>K02</string>
+<string>K07</string>
+<string>K07II</string>
+<string>V21</string>
+<string>V22</string>
+<string>V27</string>
+<string>V29</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>34</integer>
+				<key>name</key>
+				<string>东风风度</string>
+<key>detail</key>
+<dict>
+<key>郑州日产</key>
+<array>
+<string>奥丁</string>
+<string>俊风</string>
+<string>锐骐多功能商用车</string>
+<string>锐骐皮卡</string>
+<string>帅客</string>
+<string>御轩</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>35</integer>
+				<key>name</key>
+				<string>东南</string>
+<key>detail</key>
+<dict>
+<key>东南</key>
+<array>
+<string>V3菱悦</string>
+<string>V5菱致</string>
+<string>V6菱仕</string>
+<string>得利卡</string>
+<string>希旺</string>
+</array>
+</dict>
+			</dict>
+		</array>
+		<key>F</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<integer>36</integer>
+				<key>name</key>
+				<string>福特</string>
+<key>detail</key>
+<dict>
+<key>进口福特</key>
+<array>
+<string>福克斯</string>
+<string>嘉年华</string>
+<string>麦柯斯S-MAX</string>
+<string>蒙迪欧</string>
+<string>翼搏</string>
+<string>翼虎</string>
+<string>致胜</string>
+<string>嘉年华ST</string>
+<string>福克斯ST</string>
+<string>锐界</string>
+<string>探险者</string>
+<string>征服者</string>
+<string>福特E350</string>
+<string>野马</string>
+<string>福特F-150</string>
+</array>
+<key>长安福特</key>
+<array>
+<string>福克斯</string>
+<string>嘉年华</string>
+<string>麦柯斯S-MAX</string>
+<string>蒙迪欧</string>
+<string>翼搏</string>
+<string>翼虎</string>
+<string>致胜</string>
+<string>嘉年华ST</string>
+<string>福克斯ST</string>
+<string>锐界</string>
+<string>探险者</string>
+<string>征服者</string>
+<string>福特E350</string>
+<string>野马</string>
+<string>福特F-150</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>37</integer>
+				<key>name</key>
+				<string>丰田</string>
+<key>detail</key>
+<dict>
+<key>一汽丰田</key>
+<array>
+<string>RAV4</string>
+<string>花冠EX</string>
+<string>皇冠</string>
+<string>卡罗拉</string>
+<string>柯斯达</string>
+<string>兰德酷路泽</string>
+<string>普拉多</string>
+<string>普锐斯</string>
+<string>锐志</string>
+<string>威驰</string>
+<string>YARiS L 致炫</string>
+<string>汉兰达</string>
+<string>凯美瑞</string>
+<string>雷凌</string>
+<string>雅力士</string>
+<string>逸致</string>
+<string>86</string>
+<string>FJ酷路泽</string>
+<string>HIACE</string>
+<string>Sienna</string>
+<string>ZELAS杰路驰</string>
+<string>埃尔法</string>
+<string>普拉多</string>
+<string>普瑞维亚</string>
+<string>坦途</string>
+<string>威飒</string>
+<string>红杉</string>
+</array>
+<key>广汽丰田</key>
+<array>
+<string>RAV4</string>
+<string>花冠EX</string>
+<string>皇冠</string>
+<string>卡罗拉</string>
+<string>柯斯达</string>
+<string>兰德酷路泽</string>
+<string>普拉多</string>
+<string>普锐斯</string>
+<string>锐志</string>
+<string>威驰</string>
+<string>YARiS L 致炫</string>
+<string>汉兰达</string>
+<string>凯美瑞</string>
+<string>雷凌</string>
+<string>雅力士</string>
+<string>逸致</string>
+<string>86</string>
+<string>FJ酷路泽</string>
+<string>HIACE</string>
+<string>Sienna</string>
+<string>ZELAS杰路驰</string>
+<string>埃尔法</string>
+<string>普拉多</string>
+<string>普瑞维亚</string>
+<string>坦途</string>
+<string>威飒</string>
+<string>红杉</string>
+</array>
+<key>进口丰田</key>
+<array>
+<string>RAV4</string>
+<string>花冠EX</string>
+<string>皇冠</string>
+<string>卡罗拉</string>
+<string>柯斯达</string>
+<string>兰德酷路泽</string>
+<string>普拉多</string>
+<string>普锐斯</string>
+<string>锐志</string>
+<string>威驰</string>
+<string>YARiS L 致炫</string>
+<string>汉兰达</string>
+<string>凯美瑞</string>
+<string>雷凌</string>
+<string>雅力士</string>
+<string>逸致</string>
+<string>86</string>
+<string>FJ酷路泽</string>
+<string>HIACE</string>
+<string>Sienna</string>
+<string>ZELAS杰路驰</string>
+<string>埃尔法</string>
+<string>普拉多</string>
+<string>普瑞维亚</string>
+<string>坦途</string>
+<string>威飒</string>
+<string>红杉</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>38</integer>
+				<key>name</key>
+				<string>法拉利</string>
+<key>detail</key>
+<dict>
+<key>法拉利</key>
+<array>
+<string>California</string>
+<string>法拉利458</string>
+<string>F12berlinetta</string>
+<string>法拉利FF</string>
+<string>LaFerrari</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>39</integer>
+				<key>name</key>
+				<string>菲亚特</string>
+<key>detail</key>
+<dict>
+<key>广汽菲亚特</key>
+<array>
+<string>菲翔</string>
+<string>致悦</string>
+<string>500</string>
+<string>菲跃</string>
+<string>博悦</string>
+<string>朋多</string>
+</array>
+<key>进口菲亚特</key>
+<array>
+<string>菲翔</string>
+<string>致悦</string>
+<string>500</string>
+<string>菲跃</string>
+<string>博悦</string>
+<string>朋多</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>40</integer>
+				<key>name</key>
+				<string>福田</string>
+<key>detail</key>
+<dict>
+<key>福田</key>
+<array>
+<string>风景</string>
+<string>风景G7</string>
+<string>蒙派克E</string>
+<string>蒙派克S</string>
+<string>迷迪</string>
+<string>萨普</string>
+<string>拓陆者</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>41</integer>
+				<key>name</key>
+				<string>福迪</string>
+<key>detail</key>
+<dict>
+<key>福迪</key>
+<array>
+<string>揽福</string>
+<string>探索者</string>
+<string>小超人</string>
+<string>雄狮</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>42</integer>
+				<key>name</key>
+				<string>飞驰</string>
+<key>detail</key>
+<dict>
+<key>飞驰</key>
+<array>
+<string>斯宾特</string>
+<string>威霆</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>43</integer>
+				<key>name</key>
+				<string>福汽启腾</string>
+<key>detail</key>
+<dict>
+<key>福汽启腾</key>
+<array>
+<string>启腾M70</string>
+</array>
+</dict>
+			</dict>
+		</array>
+		<key>G</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<integer>44</integer>
+				<key>name</key>
+				<string>GMC</string>
+<key>detail</key>
+<dict>
+<key>GMC</key>
+<array>
+<string>GMC</string>
+<string>Savana</string>
+<string>Sierra西拉</string>
+<string>Terrain</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>45</integer>
+				<key>name</key>
+				<string>观致</string>
+<key>detail</key>
+<dict>
+	<key>观致</key>
+	<array>
+		<string>观致3</string>
+	</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>46</integer>
+				<key>name</key>
+				<string>光冈</string>
+<key>detail</key>
+<dict>
+<key>光冈</key>
+<array>
+<string>大蛇</string>
+<string>嘉路</string>
+<string>女王</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>47</integer>
+				<key>name</key>
+				<string>广汽吉奥</string>
+<key>detail</key>
+<dict>
+<key>广汽吉奥</key>
+<array>
+<string>E美</string>
+<string>奥轩G5</string>
+<string>奥轩GX5</string>
+<string>财运100</string>
+<string>财运300</string>
+<string>财运500</string>
+<string>吉奥GP150</string>
+<string>吉奥GX6</string>
+<string>星朗</string>
+<string>星旺</string>
+<string>星旺CL</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>48</integer>
+				<key>name</key>
+				<string>广汽传祺</string>
+<key>detail</key>
+<dict>
+<key>广汽传祺</key>
+<array>
+<string>传祺GA3</string>
+<string>传祺GA3S视界</string>
+<string>传祺GA5</string>
+<string>传祺GS5</string>
+<string>增程式电动传祺GA5</string>
+</array>
+</dict>
+			</dict>
+		</array>
+		<key>H</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<integer>49</integer>
+				<key>name</key>
+				<string>红旗</string>
+<key>detail</key>
+<dict>
+<key>红旗</key>
+<array>
+<string>哈弗COUPE C</string>
+<string>哈弗H1</string>
+<string>哈弗H2</string>
+<string>哈弗H5</string>
+<string>哈弗H6</string>
+<string>哈弗H8</string>
+<string>哈弗H9</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>50</integer>
+				<key>name</key>
+				<string>海马</string>
+<key>detail</key>
+<dict>
+<key>海马</key>
+<array>
+<string>丘比特</string>
+<string>福美来</string>
+<string>福美来M5</string>
+<string>海马M3</string>
+<string>海马M8</string>
+<string>海马S5</string>
+<string>海马S7</string>
+<string>骑士</string>
+<string>普力马</string>
+<string>爱尚</string>
+<string>福卡</string>
+<string>福仕达鸿达</string>
+<string>福仕达荣达</string>
+<string>福仕达新鸿达</string>
+<string>福仕达新腾达</string>
+<string>王子</string>
+</array>
+<key>海马郑州</key>
+<array>
+<string>丘比特</string>
+<string>福美来</string>
+<string>福美来M5</string>
+<string>海马M3</string>
+<string>海马M8</string>
+<string>海马S5</string>
+<string>海马S7</string>
+<string>骑士</string>
+<string>普力马</string>
+<string>爱尚</string>
+<string>福卡</string>
+<string>福仕达鸿达</string>
+<string>福仕达荣达</string>
+<string>福仕达新鸿达</string>
+<string>福仕达新腾达</string>
+<string>王子</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>51</integer>
+				<key>name</key>
+				<string>哈飞</string>
+<key>detail</key>
+<dict>
+<key>哈飞</key>
+<array>
+<string>路宝</string>
+<string>哈飞小霸王</string>
+<string>骏意</string>
+<string>民意</string>
+<string>中意V5</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>52</integer>
+				<key>name</key>
+				<string>华泰</string>
+<key>detail</key>
+<dict>
+<key>华泰</key>
+<array>
+<string>路盛E70</string>
+<string>华泰B11</string>
+<string>宝利格</string>
+<string>圣达菲</string>
+<string>新圣达菲</string>
+<string>特拉卡</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>53</integer>
+				<key>name</key>
+				<string>黄海</string>
+<key>detail</key>
+<dict>
+<key>黄海</key>
+<array>
+<string>N1</string>
+<string>翱龙CUV</string>
+<string>傲骏</string>
+<string>大柴神</string>
+<string>旗胜F1</string>
+<string>旗胜V3</string>
+<string>瑞途</string>
+<string>瑞途6</string>
+<string>挑战者</string>
+<string>小柴神</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>54</integer>
+				<key>name</key>
+				<string>悍马</string>
+<key>detail</key>
+<dict>
+<key>悍马</key>
+<array>
+<string>H1</string>
+<string>H2</string>
+<string>H3</string>
+<string>HX</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>55</integer>
+				<key>name</key>
+				<string>华普</string>
+<key>detail</key>
+<dict>
+<key>华普</key>
+<array>
+<string>海锋</string>
+<string>海尚</string>
+<string>海迅</string>
+<string>海域</string>
+<string>海景</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>56</integer>
+				<key>name</key>
+				<string>海格</string>
+<key>detail</key>
+<dict>
+<key>苏州金龙</key>
+<array>
+<string>海格H5C</string>
+<string>海格H5V</string>
+<string>海格H6C</string>
+<string>海格H7V</string>
+<string>龙威</string>
+<string>御骏</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>57</integer>
+				<key>name</key>
+				<string>恒天</string>
+<key>detail</key>
+<dict>
+<key>恒天</key>
+<array>
+<string>途腾T1</string>
+<string>途腾T2</string>
+<string>途腾T3</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>58</integer>
+				<key>name</key>
+				<string>汇众</string>
+<key>detail</key>
+<dict>
+<key>汇众</key>
+<array>
+<string>伊思坦纳</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>59</integer>
+				<key>name</key>
+				<string>华颂</string>
+<key>detail</key>
+<dict>
+<key>华颂</key>
+<array>
+<string>华颂7</string>
+</array>
+</dict>
+			</dict>
+		</array>
+		<key>J</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<integer>60</integer>
+				<key>name</key>
+				<string>Jeep</string>
+<key>detail</key>
+<dict>
+<key>Jeep</key>
+<array>
+<string>大切诺基</string>
+<string>牧马人</string>
+<string>指南者</string>
+<string>自由光</string>
+<string>自由客</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>61</integer>
+				<key>name</key>
+				<string>吉利</string>
+<key>detail</key>
+<dict>
+<key>吉利</key>
+<array>
+<string>帝豪</string>
+<string>帝豪EC8</string>
+<string>GC7</string>
+<string>GX7</string>
+<string>SC3</string>
+<string>SX7</string>
+<string>海景</string>
+<string>豪情SUV</string>
+<string>金刚</string>
+<string>熊猫</string>
+<string>英伦TX4</string>
+<string>远景</string>
+<string>自由舰</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>62</integer>
+				<key>name</key>
+				<string>江淮</string>
+<key>detail</key>
+<dict>
+<key>江淮</key>
+<array>
+<string>和悦</string>
+<string>和悦A13</string>
+<string>和悦iEV</string>
+<string>和悦A30</string>
+<string>和悦RS</string>
+<string>江淮K3</string>
+<string>江淮K5</string>
+<string>瑞风</string>
+<string>瑞风M5</string>
+<string>瑞风S3</string>
+<string>瑞铃</string>
+<string>同悦</string>
+<string>星锐</string>
+<string>悦悦</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>63</integer>
+				<key>name</key>
+				<string>金杯</string>
+<key>detail</key>
+<dict>
+<key>华晨金杯</key>
+<array>
+<string>智尚S30</string>
+<string>S50</string>
+<string>海星A7</string>
+<string>海星A9</string>
+<string>大海狮</string>
+<string>大力神</string>
+<string>阁瑞斯</string>
+<string>海狮</string>
+<string>金典</string>
+<string>雷龙</string>
+<string>小海狮X30</string>
+<string>新海狮</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>64</integer>
+				<key>name</key>
+				<string>捷豹</string>
+<key>detail</key>
+<dict>
+<key>捷豹</key>
+<array>
+<string>F-TYPE</string>
+<string>XF</string>
+<string>XJ</string>
+<string>XK</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>65</integer>
+				<key>name</key>
+				<string>江铃</string>
+<key>detail</key>
+<dict>
+<key>江铃</key>
+<array>
+<string>驭胜</string>
+<string>宝典</string>
+<string>域虎</string>
+<string>经典全顺</string>
+<string>新世代全顺</string>
+</array>
+<key>江铃福特</key>
+<array>
+<string>驭胜</string>
+<string>宝典</string>
+<string>域虎</string>
+<string>经典全顺</string>
+<string>新世代全顺</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>66</integer>
+				<key>name</key>
+				<string>江铃集团轻汽</string>
+<key>detail</key>
+<dict>
+<key>江铃集团轻汽</key>
+<array>
+<string>骐铃T5</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>67</integer>
+				<key>name</key>
+				<string>金旅</string>
+<key>detail</key>
+<dict>
+<key>金旅</key>
+<array>
+<string>海狮</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>68</integer>
+				<key>name</key>
+				<string>九龙</string>
+<key>detail</key>
+<dict>
+<key>九龙</key>
+<array>
+<string>艾菲</string>
+<string>A5</string>
+<string>A6</string>
+<string>大MPV</string>
+</array>
+</dict>
+			</dict>
+		</array>
+		<key>K</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<integer>69</integer>
+				<key>name</key>
+				<string>克莱斯勒</string>
+<key>detail</key>
+<dict>
+<key>克莱斯勒</key>
+<array>
+<string>300</string>
+<string>大捷龙</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>70</integer>
+				<key>name</key>
+				<string>凯迪拉克</string>
+<key>detail</key>
+<dict>
+<key>上海通用凯迪拉克</key>
+<array>
+<string>ATS-L</string>
+<string>XTS</string>
+<string>ATS</string>
+<string>CTS</string>
+<string>SRX</string>
+<string>凯雷德</string>
+</array>
+<key>进口凯迪拉克</key>
+<array>
+<string>ATS-L</string>
+<string>XTS</string>
+<string>ATS</string>
+<string>CTS</string>
+<string>SRX</string>
+<string>凯雷德</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>71</integer>
+				<key>name</key>
+				<string>开瑞</string>
+<key>detail</key>
+<dict>
+<key>开瑞</key>
+<array>
+<string>优劲</string>
+<string>优雅</string>
+<string>优优</string>
+<string>优胜2代</string>
+<string>优雅2代</string>
+<string>优优2代</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>72</integer>
+				<key>name</key>
+				<string>科尼塞克</string>
+<key>detail</key>
+<dict>
+<key>科尼塞克</key>
+<array>
+<string>Agera</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>73</integer>
+				<key>name</key>
+				<string>凯冀</string>
+<key>detail</key>
+<dict>
+<key>凯冀</key>
+<array>
+<string>C3</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>74</integer>
+				<key>name</key>
+				<string>卡威</string>
+<key>detail</key>
+<dict>
+<key>卡威</key>
+<array>
+<string>卡威K1</string>
+<string>卡威W1</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>75</integer>
+				<key>name</key>
+				<string>KTM</string>
+<key>detail</key>
+<dict>
+<key>KTM</key>
+<array>
+<string>X-BOW</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>76</integer>
+				<key>name</key>
+				<string>卡尔森</string>
+<key>detail</key>
+<dict>
+<key>卡尔森</key>
+<array>
+<string>GL级</string>
+<string>S级</string>
+</array>
+</dict>
+			</dict>
+		</array>
+		<key>L</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<integer>77</integer>
+				<key>name</key>
+				<string>铃木</string>
+<key>detail</key>
+<dict>
+<key>昌河铃木</key>
+<array>
+<string>奥拓</string>
+<string>锋驭</string>
+<string>羚羊</string>
+<string>天语SX4</string>
+<string>天语尚悦</string>
+<string>雨燕</string>
+<string>北斗星</string>
+<string>北斗星X5</string>
+<string>浪迪</string>
+<string>利亚纳A6</string>
+<string>利亚纳</string>
+<string>派喜</string>
+<string>超级维特拉</string>
+<string>吉姆尼</string>
+<string>凯泽西</string>
+<string>速翼特</string>
+</array>
+<key>进口铃木</key>
+<array>
+<string>奥拓</string>
+<string>锋驭</string>
+<string>羚羊</string>
+<string>天语SX4</string>
+<string>天语尚悦</string>
+<string>雨燕</string>
+<string>北斗星</string>
+<string>北斗星X5</string>
+<string>浪迪</string>
+<string>利亚纳A6</string>
+<string>利亚纳</string>
+<string>派喜</string>
+<string>超级维特拉</string>
+<string>吉姆尼</string>
+<string>凯泽西</string>
+<string>速翼特</string>
+</array>
+<key>长安铃木</key>
+<array>
+<string>奥拓</string>
+<string>锋驭</string>
+<string>羚羊</string>
+<string>天语SX4</string>
+<string>天语尚悦</string>
+<string>雨燕</string>
+<string>北斗星</string>
+<string>北斗星X5</string>
+<string>浪迪</string>
+<string>利亚纳A6</string>
+<string>利亚纳</string>
+<string>派喜</string>
+<string>超级维特拉</string>
+<string>吉姆尼</string>
+<string>凯泽西</string>
+<string>速翼特</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>78</integer>
+				<key>name</key>
+				<string>路虎</string>
+<key>detail</key>
+<dict>
+<key>奇瑞捷豹路虎</key>
+<array>
+<string>揽胜极光</string>
+<string>发现</string>
+<string>发现神行</string>
+<string>神行者2</string>
+<string>揽胜</string>
+<string>揽胜极光</string>
+<string>卫士</string>
+</array>
+<key>路虎</key>
+<array>
+<string>揽胜极光</string>
+<string>发现</string>
+<string>发现神行</string>
+<string>神行者2</string>
+<string>揽胜</string>
+<string>揽胜极光</string>
+<string>卫士</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>79</integer>
+				<key>name</key>
+				<string>雷克萨斯</string>
+<key>detail</key>
+<dict>
+<key>雷克萨斯</key>
+<array>
+<string>CT</string>
+<string>ES</string>
+<string>GS</string>
+<string>GX</string>
+<string>IS</string>
+<string>LS</string>
+<string>LX</string>
+<string>NX</string>
+<string>RC</string>
+<string>RX</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>80</integer>
+				<key>name</key>
+				<string>林肯</string>
+<key>detail</key>
+<dict>
+<key>林肯</key>
+<array>
+<string>MKC</string>
+<string>MKS</string>
+<string>MKT</string>
+<string>MKX</string>
+<string>MKZ</string>
+<string>领航员</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>81</integer>
+				<key>name</key>
+				<string>兰博基尼</string>
+<key>detail</key>
+<dict>
+<key>兰博基尼</key>
+<array>
+<string>Huracan</string>
+<string>Aventador</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>82</integer>
+				<key>name</key>
+				<string>劳斯莱斯</string>
+<key>detail</key>
+<dict>
+<key>劳斯莱斯</key>
+<array>
+<string>幻影</string>
+<string>古思特</string>
+<string>魅影</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>83</integer>
+				<key>name</key>
+				<string>路特斯</string>
+<key>detail</key>
+<dict>
+<key>路特斯</key>
+<array>
+<string>Evora</string>
+<string>Exige</string>
+<string>爱丽丝</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>84</integer>
+				<key>name</key>
+				<string>莲花</string>
+<key>detail</key>
+<dict>
+<key>莲花</key>
+<array>
+<string>L3</string>
+<string>L5</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>85</integer>
+				<key>name</key>
+				<string>雷诺</string>
+<key>detail</key>
+<dict>
+<key>雷诺</key>
+<array>
+<string>风景</string>
+<string>风朗</string>
+<string>科雷傲</string>
+<string>拉古那</string>
+<string>拉古那-古贝</string>
+<string>梅甘娜</string>
+<string>塔利斯曼</string>
+<string>纬度</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>86</integer>
+				<key>name</key>
+				<string>理念</string>
+<key>detail</key>
+<dict>
+<key>理念</key>
+<array>
+<string>S1</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>87</integer>
+				<key>name</key>
+				<string>力帆</string>
+<key>detail</key>
+<dict>
+<key>力帆</key>
+<array>
+<string>320</string>
+<string>330</string>
+<string>520</string>
+<string>530</string>
+<string>620</string>
+<string>630</string>
+<string>720</string>
+<string>T11</string>
+<string>T21</string>
+<string>X50</string>
+<string>X60</string>
+<string>丰顺</string>
+<string>福顺</string>
+<string>兴顺</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>88</integer>
+				<key>name</key>
+				<string>猎豹</string>
+<key>detail</key>
+<dict>
+<key>猎豹</key>
+<array>
+<string>6481</string>
+<string>CS6</string>
+<string>CT5</string>
+<string>飞腾</string>
+<string>飞腾C5</string>
+<string>飞扬</string>
+<string>黑金刚</string>
+<string>猎豹Q6</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>89</integer>
+				<key>name</key>
+				<string>陆风</string>
+<key>detail</key>
+<dict>
+<key>陆风</key>
+<array>
+<string>X5</string>
+<string>X6</string>
+<string>X8</string>
+<string>X9</string>
+<string>风尚</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>90</integer>
+				<key>name</key>
+				<string>劳伦士</string>
+<key>detail</key>
+<dict>
+<key>劳伦士</key>
+<array>
+<string>ML级</string>
+<string>S级</string>
+</array>
+</dict>
+			</dict>
+		</array>
+		<key>M</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<integer>91</integer>
+				<key>name</key>
+				<string>马自达</string>
+<key>detail</key>
+<dict>
+<key>一汽马自达</key>
+<array>
+<string>CX-7</string>
+<string>Mazda6</string>
+<string>睿翼</string>
+<string>阿特兹</string>
+<string>Mazda8</string>
+<string>2</string>
+<string>3经典</string>
+<string>3星骋</string>
+<string>昂克赛拉</string>
+<string>CX-5</string>
+<string>CX-7</string>
+<string>CX-9</string>
+<string>Mazda5</string>
+<string>MX-5</string>
+</array>
+<key>进口马自达</key>
+<array>
+<string>CX-7</string>
+<string>Mazda6</string>
+<string>睿翼</string>
+<string>阿特兹</string>
+<string>Mazda8</string>
+<string>2</string>
+<string>3经典</string>
+<string>3星骋</string>
+<string>昂克赛拉</string>
+<string>CX-5</string>
+<string>CX-7</string>
+<string>CX-9</string>
+<string>Mazda5</string>
+<string>MX-5</string>
+</array>
+<key>长安马自达</key>
+<array>
+<string>CX-7</string>
+<string>Mazda6</string>
+<string>睿翼</string>
+<string>阿特兹</string>
+<string>Mazda8</string>
+<string>2</string>
+<string>3经典</string>
+<string>3星骋</string>
+<string>昂克赛拉</string>
+<string>CX-5</string>
+<string>CX-7</string>
+<string>CX-9</string>
+<string>Mazda5</string>
+<string>MX-5</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>92</integer>
+				<key>name</key>
+				<string>MINI</string>
+<key>detail</key>
+<dict>
+<key>MINI</key>
+<array>
+<string>MINI</string>
+<string>CABRIO</string>
+<string>CLUBMAN</string>
+<string>COUNTRYMAN</string>
+<string>COUPE</string>
+<string>PACEMAN</string>
+<string>ROADSTER</string>
+<string>CLUBMAN JCW</string>
+<string>COUNTRYMAN JCW</string>
+<string>COUPE JCW</string>
+<string>MINI JCW</string>
+<string>PACEMAN JCW</string>
+</array>
+<key>MINI JCW</key>
+<array>
+<string>MINI</string>
+<string>CABRIO</string>
+<string>CLUBMAN</string>
+<string>COUNTRYMAN</string>
+<string>COUPE</string>
+<string>PACEMAN</string>
+<string>ROADSTER</string>
+<string>CLUBMAN JCW</string>
+<string>COUNTRYMAN JCW</string>
+<string>COUPE JCW</string>
+<string>MINI JCW</string>
+<string>PACEMAN JCW</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>93</integer>
+				<key>name</key>
+				<string>玛莎拉蒂</string>
+<key>detail</key>
+<dict>
+<key>玛莎拉蒂</key>
+<array>
+<string>Ghibli</string>
+<string>GranCabrio</string>
+<string>GT</string>
+<string>总裁</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>94</integer>
+				<key>name</key>
+				<string>迈凯伦</string>
+<key>detail</key>
+<dict>
+<key>迈凯伦</key>
+<array>
+<string>P1</string>
+<string>625C</string>
+<string>650S</string>
+<string>12C</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>95</integer>
+				<key>name</key>
+				<string>MG</string>
+<key>detail</key>
+<dict>
+<key>上汽集团</key>
+<array>
+<string>MG3</string>
+<string>MG GT</string>
+<string>MG5</string>
+<string>MG6</string>
+<string>MG7</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>96</integer>
+				<key>name</key>
+				<string>摩根</string>
+<key>detail</key>
+<dict>
+<key>摩根</key>
+<array>
+<string>3 Wheeler</string>
+<string>4/4</string>
+<string>Aero</string>
+<string>Plus 8</string>
+<string>Roadster</string>
+</array>
+</dict>
+			</dict>
+		</array>
+		<key>N</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<integer>97</integer>
+				<key>name</key>
+				<string>纳智捷</string>
+<key>detail</key>
+<dict>
+<key>纳智捷</key>
+<array>
+<string>东风裕隆</string>
+<string>5 Sedan</string>
+<string>优6 SUV</string>
+<string>大7 SUV</string>
+<string>大7 MPV</string>
+<string>MASTER CEO</string>
+</array>
+</dict>
+			</dict>
+		</array>
+		<key>O</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<integer>98</integer>
+				<key>name</key>
+				<string>讴歌</string>
+<key>detail</key>
+<dict>
+<key>讴歌</key>
+<array>
+<string>ILX</string>
+<string>TL</string>
+<string>TLX</string>
+<string>MDX</string>
+<string>RDX</string>
+<string>RL</string>
+<string>RLX</string>
+<string>ZDX</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>99</integer>
+				<key>name</key>
+				<string>欧宝</string>
+<key>detail</key>
+<dict>
+<key>欧宝</key>
+<array>
+<string>安德拉</string>
+<string>麦瑞纳</string>
+<string>赛飞利</string>
+<string>雅特</string>
+<string>英速亚</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>100</integer>
+				<key>name</key>
+				<string>欧朗</string>
+<key>detail</key>
+<dict>
+<key>一汽欧朗</key>
+<array>
+<string>欧朗</string>
+</array>
+</dict>
+			</dict>
+		</array>
+		<key>Q</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<integer>101</integer>
+				<key>name</key>
+				<string>起亚</string>
+<key>detail</key>
+<dict>
+<key>东风悦达起亚</key>
+<array>
+<string>K2</string>
+<string>K3</string>
+<string>K3S</string>
+<string>K4</string>
+<string>K5</string>
+<string>RIO</string>
+<string>福瑞迪</string>
+<string>赛拉图</string>
+<string>狮跑</string>
+<string>秀尔</string>
+<string>智跑</string>
+<string>K5混合动力</string>
+<string>VQ威客</string>
+<string>霸锐</string>
+<string>凯尊</string>
+<string>速迈</string>
+<string>索兰托</string>
+<string>新佳乐</string>
+</array>
+<key>进口起亚</key>
+<array>
+<string>K2</string>
+<string>K3</string>
+<string>K3S</string>
+<string>K4</string>
+<string>K5</string>
+<string>RIO</string>
+<string>福瑞迪</string>
+<string>赛拉图</string>
+<string>狮跑</string>
+<string>秀尔</string>
+<string>智跑</string>
+<string>K5混合动力</string>
+<string>VQ威客</string>
+<string>霸锐</string>
+<string>凯尊</string>
+<string>速迈</string>
+<string>索兰托</string>
+<string>新佳乐</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>102</integer>
+				<key>name</key>
+				<string>奇瑞</string>
+<key>detail</key>
+<dict>
+<key>奇瑞</key>
+<array>
+<string>E3</string>
+<string>E5</string>
+<string>eQ电动车</string>
+<string>新QQ</string>
+<string>QQ3</string>
+<string>艾瑞泽3</string>
+<string>艾瑞泽7</string>
+<string>东方之子</string>
+<string>风云2</string>
+<string>旗云1</string>
+<string>旗云2</string>
+<string>旗云3</string>
+<string>瑞虎3</string>
+<string>瑞虎5</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>103</integer>
+				<key>name</key>
+				<string>启辰</string>
+<key>detail</key>
+<dict>
+<key>东风日产</key>
+<array>
+<string>T70</string>
+<string>R30</string>
+<string>晨风</string>
+<string>D50</string>
+<string>R50</string>
+<string>R50X</string>
+</array>
+</dict>
+			</dict>
+		</array>
+		<key>R</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<integer>104</integer>
+				<key>name</key>
+				<string>日产</string>
+<key>detail</key>
+<dict>
+<key>东风日产</key>
+<array>
+<string>骊威</string>
+<string>楼兰</string>
+<string>玛驰</string>
+<string>奇骏</string>
+<string>骐达</string>
+<string>天籁</string>
+<string>逍客</string>
+<string>轩逸</string>
+<string>阳光</string>
+<string>D22</string>
+<string>NV200</string>
+<string>帕拉丁</string>
+<string>370Z</string>
+<string>GT-R</string>
+<string>碧莲</string>
+<string>贵士</string>
+<string>途乐</string>
+</array>
+<key>进口日产</key>
+<array>
+<string>骊威</string>
+<string>楼兰</string>
+<string>玛驰</string>
+<string>奇骏</string>
+<string>骐达</string>
+<string>天籁</string>
+<string>逍客</string>
+<string>轩逸</string>
+<string>阳光</string>
+<string>D22</string>
+<string>NV200</string>
+<string>帕拉丁</string>
+<string>370Z</string>
+<string>GT-R</string>
+<string>碧莲</string>
+<string>贵士</string>
+<string>途乐</string>
+</array>
+<key>郑州日产</key>
+<array>
+<string>骊威</string>
+<string>楼兰</string>
+<string>玛驰</string>
+<string>奇骏</string>
+<string>骐达</string>
+<string>天籁</string>
+<string>逍客</string>
+<string>轩逸</string>
+<string>阳光</string>
+<string>D22</string>
+<string>NV200</string>
+<string>帕拉丁</string>
+<string>370Z</string>
+<string>GT-R</string>
+<string>碧莲</string>
+<string>贵士</string>
+<string>途乐</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>105</integer>
+				<key>name</key>
+				<string>荣威</string>
+<key>detail</key>
+<dict>
+<key>上汽集团</key>
+<array>
+<string>E50</string>
+<string>350</string>
+<string>550</string>
+<string>750</string>
+<string>950</string>
+<string>W5</string>
+</array>
+</dict>
+
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>106</integer>
+				<key>name</key>
+				<string>瑞麒</string>
+<key>detail</key>
+<dict>
+<key>奇瑞汽车</key>
+<array>
+<string>M1</string>
+<string>M5</string>
+<string>G3</string>
+<string>G5</string>
+<string>G6</string>
+</array>
+</dict>
+			</dict>
+		</array>
+		<key>S</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<integer>107</integer>
+				<key>name</key>
+				<string>斯柯达</string>
+<key>detail</key>
+<dict>
+<key>上海大众斯柯达</key>
+<array>
+<string>昊锐</string>
+<string>晶锐</string>
+<string>明锐</string>
+<string>速派</string>
+<string>昕动</string>
+<string>昕锐</string>
+<string>野帝</string>
+<string>Yeti</string>
+<string>速尊</string>
+</array>
+<key>进口斯柯达</key>
+<array>
+<string>昊锐</string>
+<string>晶锐</string>
+<string>明锐</string>
+<string>速派</string>
+<string>昕动</string>
+<string>昕锐</string>
+<string>野帝</string>
+<string>Yeti</string>
+<string>速尊</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>108</integer>
+				<key>name</key>
+				<string>三菱</string>
+<key>detail</key>
+<dict>
+<key>东南三菱</key>
+<array>
+<string>戈蓝</string>
+<string>君阁</string>
+<string>蓝瑟</string>
+<string>翼神</string>
+<string>帕杰罗劲畅</string>
+<string>新劲炫 ASX</string>
+<string>格蓝迪</string>
+<string>LANCER</string>
+<string>欧蓝德</string>
+<string>帕杰罗</string>
+<string>帕杰罗劲畅</string>
+</array>
+<key>广汽三菱</key>
+<array>
+<string>戈蓝</string>
+<string>君阁</string>
+<string>蓝瑟</string>
+<string>翼神</string>
+<string>帕杰罗劲畅</string>
+<string>新劲炫 ASX</string>
+<string>格蓝迪</string>
+<string>LANCER</string>
+<string>欧蓝德</string>
+<string>帕杰罗</string>
+<string>帕杰罗劲畅</string>
+</array>
+<key>进口三菱</key>
+<array>
+<string>戈蓝</string>
+<string>君阁</string>
+<string>蓝瑟</string>
+<string>翼神</string>
+<string>帕杰罗劲畅</string>
+<string>新劲炫 ASX</string>
+<string>格蓝迪</string>
+<string>LANCER</string>
+<string>欧蓝德</string>
+<string>帕杰罗</string>
+<string>帕杰罗劲畅</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>109</integer>
+				<key>name</key>
+				<string>斯巴鲁</string>
+<key>detail</key>
+<dict>
+<key>斯巴鲁</key>
+<array>
+<string>BRZ</string>
+<string>XV</string>
+<string>傲虎</string>
+<string>驰鹏</string>
+<string>力狮</string>
+<string>森林人</string>
+<string>翼豹</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>110</integer>
+				<key>name</key>
+				<string>Smart</string>
+<key>detail</key>
+<dict>
+<key>Smart</key>
+<array>
+<string>Smart</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>111</integer>
+				<key>name</key>
+				<string>双龙</string>
+<key>detail</key>
+<dict>
+<key>双龙</key>
+<array>
+<string>爱腾</string>
+<string>柯兰多</string>
+<string>雷斯特</string>
+<string>路帝</string>
+<string>享御</string>
+<string>主席</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>112</integer>
+				<key>name</key>
+				<string>世爵</string>
+<key>detail</key>
+<dict>
+<key>世爵</key>
+<array>
+<string>C8</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>113</integer>
+				<key>name</key>
+				<string>萨博</string>
+<key>detail</key>
+<dict>
+<key>萨博</key>
+<array>
+<string>Saab 9-3</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>114</integer>
+				<key>name</key>
+				<string>思铭</string>
+<key>detail</key>
+<dict>
+<key>思铭</key>
+<array>
+<string>思铭</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>115</integer>
+				<key>name</key>
+				<string>绅宝</string>
+<key>detail</key>
+<dict>
+<key>绅宝</key>
+<array>
+<string>D20</string>
+<string>D50</string>
+<string>D60</string>
+<string>D70</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>116</integer>
+				<key>name</key>
+				<string>上汽大通</string>
+<key>detail</key>
+<dict>
+<key>上汽大通</key>
+<array>
+<string>G10</string>
+<string>V80</string>
+<string>伊思坦纳</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>117</integer>
+				<key>name</key>
+				<string>双环</string>
+<key>detail</key>
+<dict>
+<key>双环</key>
+<array>
+<string>SCEO</string>
+</array>
+</dict>
+			</dict>
+		</array>
+		<key>T</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<integer>118</integer>
+				<key>name</key>
+				<string>Tesla</string>
+<key>detail</key>
+<dict>
+<key>Tesla</key>
+<array>
+<string>Model S</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>119</integer>
+				<key>name</key>
+				<string>腾势</string>
+<key>detail</key>
+<dict>
+<key>比亚迪戴姆勒</key>
+<array>
+<string>腾势电动车</string>
+</array>
+</dict>
+			</dict>
+		</array>
+		<key>W</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<integer>120</integer>
+				<key>name</key>
+				<string>沃尔沃</string>
+<key>detail</key>
+<dict>
+<key>沃尔沃</key>
+<array>
+<string>S80L</string>
+<string>S60L</string>
+<string>XC Classic</string>
+<string>XC60</string>
+<string>C70</string>
+<string>S60</string>
+<string>V40</string>
+<string>V60</string>
+<string>XC60</string>
+<string>XC90</string>
+</array>
+<key>沃尔沃亚太</key>
+<array>
+<string>S80L</string>
+<string>S60L</string>
+<string>XC Classic</string>
+<string>XC60</string>
+<string>C70</string>
+<string>S60</string>
+<string>V40</string>
+<string>V60</string>
+<string>XC60</string>
+<string>XC90</string>
+</array>
+<key>长安沃尔沃</key>
+<array>
+<string>S80L</string>
+<string>S60L</string>
+<string>XC Classic</string>
+<string>XC60</string>
+<string>C70</string>
+<string>S60</string>
+<string>V40</string>
+<string>V60</string>
+<string>XC60</string>
+<string>XC90</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>121</integer>
+				<key>name</key>
+				<string>五菱</string>
+<key>detail</key>
+<dict>
+<key>五菱</key>
+<array>
+<string>上汽通用五菱</string>
+<string>PN货车</string>
+<string>五菱宏光</string>
+<string>五菱荣光</string>
+<string>荣光小卡</string>
+<string>征程</string>
+<string>五菱之光</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>122</integer>
+				<key>name</key>
+				<string>威麟</string>
+<key>detail</key>
+<dict>
+<key>奇瑞汽车</key>
+<array>
+<string>H3</string>
+<string>H5</string>
+<string>X5</string>
+<string>V5</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>123</integer>
+				<key>name</key>
+				<string>威兹曼</string>
+<key>detail</key>
+<dict>
+<key>威兹曼</key>
+<array>
+<string>GT</string>
+<string>Roadster</string>
+</array>
+</dict>
+			</dict>
+		</array>
+		<key>X</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<integer>124</integer>
+				<key>name</key>
+				<string>雪佛兰</string>
+<key>detail</key>
+<dict>
+<key>上海通用雪佛兰</key>
+<array>
+<string>爱唯欧</string>
+<string>创酷</string>
+<string>景程</string>
+<string>科鲁兹</string>
+<string>科帕奇</string>
+<string>迈锐宝</string>
+<string>赛欧</string>
+<string>Camaro科迈罗</string>
+<string>Volt沃蓝达</string>
+</array>
+<key>进口雪佛兰</key>
+<array>
+<string>爱唯欧</string>
+<string>创酷</string>
+<string>景程</string>
+<string>科鲁兹</string>
+<string>科帕奇</string>
+<string>迈锐宝</string>
+<string>赛欧</string>
+<string>Camaro科迈罗</string>
+<string>Volt沃蓝达</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>125</integer>
+				<key>name</key>
+				<string>现代</string>
+<key>detail</key>
+<dict>
+<key>北京现代</key>
+<array>
+<string>ix25</string>
+<string>ix35</string>
+<string>朗动</string>
+<string>名图</string>
+<string>全新胜达</string>
+<string>瑞纳</string>
+<string>瑞奕</string>
+<string>索纳塔八</string>
+<string>途胜</string>
+<string>悦动</string>
+<string>康恩迪</string>
+<string>飞思Veloster</string>
+<string>格锐</string>
+<string>辉翼</string>
+<string>捷恩斯</string>
+<string>劳恩斯</string>
+<string>劳恩斯-酷派</string>
+<string>胜达</string>
+<string>索纳塔混合动力</string>
+<string>雅科仕</string>
+<string>雅尊</string>
+</array>
+<key>四川现代</key>
+<array>
+<string>ix25</string>
+<string>ix35</string>
+<string>朗动</string>
+<string>名图</string>
+<string>全新胜达</string>
+<string>瑞纳</string>
+<string>瑞奕</string>
+<string>索纳塔八</string>
+<string>途胜</string>
+<string>悦动</string>
+<string>康恩迪</string>
+<string>飞思Veloster</string>
+<string>格锐</string>
+<string>辉翼</string>
+<string>捷恩斯</string>
+<string>劳恩斯</string>
+<string>劳恩斯-酷派</string>
+<string>胜达</string>
+<string>索纳塔混合动力</string>
+<string>雅科仕</string>
+<string>雅尊</string>
+</array>
+<key>进口现代</key>
+<array>
+<string>ix25</string>
+<string>ix35</string>
+<string>朗动</string>
+<string>名图</string>
+<string>全新胜达</string>
+<string>瑞纳</string>
+<string>瑞奕</string>
+<string>索纳塔八</string>
+<string>途胜</string>
+<string>悦动</string>
+<string>康恩迪</string>
+<string>飞思Veloster</string>
+<string>格锐</string>
+<string>辉翼</string>
+<string>捷恩斯</string>
+<string>劳恩斯</string>
+<string>劳恩斯-酷派</string>
+<string>胜达</string>
+<string>索纳塔混合动力</string>
+<string>雅科仕</string>
+<string>雅尊</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>126</integer>
+				<key>name</key>
+				<string>雪铁龙</string>
+<key>detail</key>
+<dict>
+<key>东风雪铁龙</key>
+<array>
+<string>C2</string>
+<string>C3-XR</string>
+<string>C4L</string>
+<string>C5</string>
+<string>爱丽舍</string>
+<string>世嘉</string>
+<string>C4 Aircross</string>
+<string>C4毕加索</string>
+</array>
+<key>进口雪铁龙</key>
+<array>
+<string>C2</string>
+<string>C3-XR</string>
+<string>C4L</string>
+<string>C5</string>
+<string>爱丽舍</string>
+<string>世嘉</string>
+<string>C4 Aircross</string>
+<string>C4毕加索</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>127</integer>
+				<key>name</key>
+				<string>西亚特</string>
+<key>detail</key>
+<dict>
+<key>西亚特</key>
+<array>
+<string>Leon</string>
+<string>欧悦博</string>
+<string>伊比飒</string>
+</array>
+</dict>
+			</dict>
+		</array>
+		<key>Y</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<integer>128</integer>
+				<key>name</key>
+				<string>一汽</string>
+<key>detail</key>
+<dict>
+<key>一汽吉林</key>
+<array>
+<string>威志</string>
+<string>威志V2</string>
+<string>威志V5</string>
+<string>威姿</string>
+<string>夏利</string>
+<string>夏利N3</string>
+<string>夏利N5</string>
+<string>夏利N7</string>
+<string>骏派D60</string>
+<string>森雅S80</string>
+<string>森雅M80</string>
+<string>佳宝V52</string>
+<string>佳宝V70 II代</string>
+<string>佳宝V80</string>
+<string>佳宝T50</string>
+<string>佳宝T51</string>
+<string>佳宝T57</string>
+<string>佳宝V70</string>
+<string>坤程</string>
+</array>
+<key>一汽通用</key>
+<array>
+<string>威志</string>
+<string>威志V2</string>
+<string>威志V5</string>
+<string>威姿</string>
+<string>夏利</string>
+<string>夏利N3</string>
+<string>夏利N5</string>
+<string>夏利N7</string>
+<string>骏派D60</string>
+<string>森雅S80</string>
+<string>森雅M80</string>
+<string>佳宝V52</string>
+<string>佳宝V70 II代</string>
+<string>佳宝V80</string>
+<string>佳宝T50</string>
+<string>佳宝T51</string>
+<string>佳宝T57</string>
+<string>佳宝V70</string>
+<string>坤程</string>
+</array>
+<key>天津一汽</key>
+<array>
+<string>威志</string>
+<string>威志V2</string>
+<string>威志V5</string>
+<string>威姿</string>
+<string>夏利</string>
+<string>夏利N3</string>
+<string>夏利N5</string>
+<string>夏利N7</string>
+<string>骏派D60</string>
+<string>森雅S80</string>
+<string>森雅M80</string>
+<string>佳宝V52</string>
+<string>佳宝V70 II代</string>
+<string>佳宝V80</string>
+<string>佳宝T50</string>
+<string>佳宝T51</string>
+<string>佳宝T57</string>
+<string>佳宝V70</string>
+<string>坤程</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>129</integer>
+				<key>name</key>
+				<string>英菲尼迪</string>
+<key>detail</key>
+<dict>
+<key>东风英菲尼迪</key>
+<array>
+<string>Q50L</string>
+<string>ESQ</string>
+<string>JX</string>
+<string>Q50</string>
+<string>Q60</string>
+<string>Q70</string>
+<string>QX50</string>
+<string>QX60</string>
+<string>QX70</string>
+<string>QX80</string>
+</array>
+<key>英菲尼迪</key>
+<array>
+<string>Q50L</string>
+<string>ESQ</string>
+<string>JX</string>
+<string>Q50</string>
+<string>Q60</string>
+<string>Q70</string>
+<string>QX50</string>
+<string>QX60</string>
+<string>QX70</string>
+<string>QX80</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>130</integer>
+				<key>name</key>
+				<string>野马</string>
+<key>detail</key>
+<dict>
+<key>野马</key>
+<array>
+<string>F10</string>
+<string>F12</string>
+<string>F16</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>131</integer>
+				<key>name</key>
+				<string>依维柯</string>
+<key>detail</key>
+<dict>
+<key>依维柯</key>
+<array>
+<string>宝迪</string>
+<string>得意</string>
+<string>威尼斯</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>132</integer>
+				<key>name</key>
+				<string>永源</string>
+<key>detail</key>
+<dict>
+<key>永源</key>
+<array>
+<string>A380</string>
+<string>猎鹰</string>
+<string>五星</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>133</integer>
+				<key>name</key>
+				<string>英致</string>
+<key>detail</key>
+<dict>
+<key>英致</key>
+<array>
+<string>英致G3</string>
+</array>
+</dict>
+			</dict>
+		</array>
+		<key>Z</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<integer>24</integer>
+				<key>name</key>
+				<string>长安汽车</string>
+<key>detail</key>
+<dict>
+<key>长安汽车</key>
+<array>
+<string>CS35</string>
+<string>CS75</string>
+<string>CX20</string>
+<string>CX30</string>
+<string>奔奔</string>
+<string>奔奔mini</string>
+<string>睿骋</string>
+<string>逸动</string>
+<string>悦翔V3</string>
+<string>悦翔V5</string>
+<string>悦翔V7</string>
+<string>悦翔</string>
+<string>致尚XT</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>25</integer>
+				<key>name</key>
+				<string>长安商用车</string>
+<key>detail</key>
+<dict>
+<key>长安商用车</key>
+<array>
+<string>V5</string>
+<string>欧诺</string>
+<string>睿行</string>
+<string>星光4500</string>
+<string>长安星卡</string>
+<string>长安之星</string>
+<string>长安之星2</string>
+<string>长安之星7</string>
+<string>尊行</string>
+<string>欧力威</string>
+<string>神骐</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>26</integer>
+				<key>name</key>
+				<string>长城汽车</string>
+<key>detail</key>
+<dict>
+<key>长城汽车</key>
+<array>
+<string>C20R</string>
+<string>C30</string>
+<string>C50</string>
+<string>M2</string>
+<string>M4</string>
+<string>V80</string>
+<string>风骏3</string>
+<string>风骏5</string>
+<string>风骏6</string>
+<string>金迪尔</string>
+<string>炫丽Cross</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>134</integer>
+				<key>name</key>
+				<string>中华</string>
+<key>detail</key>
+<dict>
+<key>中华</key>
+<array>
+<string>H220 </string>
+<string>H230 </string>
+<string>H320 </string>
+<string>H330 </string>
+<string>H530 </string>
+<string>骏捷FRV </string>
+<string>骏捷FSV </string>
+<string>骏捷 </string>
+<string>尊驰 </string>
+<string>骏捷Cross</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>135</integer>
+				<key>name</key>
+				<string>众泰</string>
+<key>detail</key>
+<dict>
+<key>众泰</key>
+<array>
+<string>2008 </string>
+<string>5008 </string>
+<string>M300 </string>
+<string>T200 </string>
+<string>T600 </string>
+<string>V10 </string>
+<string>Z100</string>
+<string>Z200</string>
+<string>Z200HB</string>
+<string>Z300</string>
+<string>Z500</string>
+<string>江南TT</string>
+<string>云100 </string>
+<string>知豆E20</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>136</integer>
+				<key>name</key>
+				<string>中兴</string>
+<key>detail</key>
+<dict>
+<key>中兴</key>
+<array>
+<string>C3</string>
+<string>昌铃</string>
+<string>旗舰A9 </string>
+<string>威虎G3  </string>
+<string>威虎TUV  </string>
+<string>无限</string>
+</array>
+</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<integer>137</integer>
+				<key>name</key>
+				<string>中欧 </string>
+<key>detail</key>
+<dict>
+<key>中欧 </key>
+<array>
+<string>中欧奔驰房车</string>
+</array>
+</dict>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

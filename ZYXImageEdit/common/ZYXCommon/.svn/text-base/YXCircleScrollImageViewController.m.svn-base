@@ -1,0 +1,251 @@
+//
+//  YXCircleScrollView.m
+//  YXebookReader
+//
+//  Created by BZBY on 15/12/4.
+//  Copyright (c) 2015年 BZBY. All rights reserved.
+//
+
+#import "YXCircleScrollImageViewController.h"
+#import "YXImageViewController.h"
+@interface YXCircleScrollImageViewController()<UIPageViewControllerDataSource,UIPageViewControllerDelegate>
+@property (strong,nonatomic) UIPageViewController * pageViewController;
+@property (assign,nonatomic) NSInteger totalPages;
+
+@property (strong,nonatomic) UIView *pageView;
+@property (strong,nonatomic) UIPageControl * pageControl;
+@property (strong,nonatomic) NSTimer * timer;
+@property (assign,nonatomic) NSInteger seconds;
+
+@property (assign,nonatomic) BOOL isLongPressing;
+@end
+@implementation YXCircleScrollImageViewController
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        
+    }
+    return self;
+}
+- (instancetype)initWithTotalPages:(TotalPagesBlock)totalPages ImageOrUrlAtPageIndex:(ImageOrUrlAtPageIndexBlock)imageOrUrlAtPageIndex DefaultImageAtPageIndexBlock:(DefaultImageAtPageIndexBlock)defaultImageAtPageIndex ImageSingleTapHandleBlock:(ImageSingleTapHandleBlock)imageSingleTapHandle{
+    self = [super init];
+    if (self) {
+        self.totalPagesBlock = totalPages;
+        self.imageOrUrlAtPageIndexBlock = imageOrUrlAtPageIndex;
+        self.defaultImageAtPageIndexBlock = defaultImageAtPageIndex;
+        self.imageSingleTapHandleBlock = imageSingleTapHandle;
+    }
+    return self;
+}
+-(void)viewDidLoad{
+    [super viewDidLoad];
+    
+    [self initData];
+    [self initUI];
+    [self createPageView];
+    [self createPageViewController];
+    [self createPageControll];
+    
+    //self.view.backgroundColor = [UIColor blueColor];
+    [self startShowPageVcWithPageIndex:0];
+    [self registerNotification];
+}
+-(void)registerNotification{
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appEnterForeground:) name:Notification_Name_AppEnterForeground object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appEnterBackground:) name:Notification_Name_AppEnterBackground object:nil];
+}
+-(void)appEnterForeground:(NSNotification*)note{
+    [self startTimer];
+}
+-(void)appEnterBackground:(NSNotification*)note{
+    [self endTimer];
+}
+-(void)initData{
+    self.totalPages = 0;
+    if(self.totalPagesBlock){
+        self.totalPages = self.totalPagesBlock(self);
+    }
+    self.isLongPressing = NO;
+}
+-(void)initUI{
+    if(CGRectEqualToRect(self.frame, CGRectZero)){
+        self.view.width = SCREEN_WIDHT;
+        self.view.height = SCREEN_HEIGHT;
+        self.frame = self.view.frame;
+    }else{
+        self.view.frame = self.frame;
+    }
+    
+    self.view.autoresizingMask = UIViewAutoresizingNone;
+}
+- (void)createPageView{
+    self.pageView = [[UIView alloc] init];
+    self.pageView.width = self.view.width;
+    self.pageView.height = self.view.height;
+    [self.view addSubview:self.pageView];
+}
+- (void)createPageViewController{
+    // 设置UIPageViewController的配置项
+    
+    NSDictionary *options =[NSDictionary dictionaryWithObject:[NSNumber numberWithInteger:UIPageViewControllerSpineLocationMin] forKey: UIPageViewControllerOptionSpineLocationKey];
+    
+    self.pageViewController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:options];
+    self.pageViewController.dataSource = self;
+    self.pageViewController.delegate =self;
+    [self.pageView addSubview:self.pageViewController.view];
+    
+}
+#pragma  mark 进入页码显示的页面，第一页或者上一次阅读记录的那一页
+- (void)startShowPageVcWithPageIndex:(NSInteger)pageIndex{
+    self.pageViewController.view.width = self.pageView.width;
+    self.pageViewController.view.height = self.pageView.height;
+    
+    UIViewController * startingViewController = [self viewControllerAtIndex:pageIndex];
+    
+    NSArray *viewControllers = @[startingViewController];
+    [self.pageViewController setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionReverse animated:YES completion:nil];
+    
+    [self addChildViewController:self.pageViewController];
+    
+    [self.pageViewController didMoveToParentViewController:self];
+    [self startTimer];
+}
+-(void)createPageControll{
+    self.pageControl = [[UIPageControl alloc] init];
+    
+    self.pageControl.centerX = self.pageView.width/2.0;
+    self.pageControl.centerY = self.pageView.height - self.pageControl.height -10;
+    self.pageControl.currentPage = 0;
+    self.pageControl.numberOfPages = self.totalPages;
+    [self.pageControl setDefersCurrentPageDisplay:YES];
+    self.pageControl.pageIndicatorTintColor = [UIColor colorWithHex:0xedecec];
+    self.pageControl.currentPageIndicatorTintColor = [UIColor colorWithHex:0x9dfafc];
+    [self.view addSubview:self.pageControl];
+}
+//**/
+
+#pragma mark 轮播图自动播放
+-(void)startTimer{
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timerHandle) userInfo:nil repeats:YES];
+    self.seconds = 0;
+}
+-(void)endTimer{
+    [self.timer invalidate];
+    self.timer = nil;
+}
+-(void)timerHandle{
+    self.seconds++;
+    if(self.seconds>=3 && !self.isLongPressing){
+        [self gotoNextPage];
+        self.seconds = 0;
+    }
+}
+
+/**/
+
+#pragma mark 页面切换
+- (void)gotoLastPage{
+    NSArray * array = self.pageViewController.viewControllers;
+    NSInteger currentPageIndex = [array.firstObject pageIndex];
+    NSInteger index = currentPageIndex;
+    if(0 == index){
+        index = self.totalPages -1;
+    }else{
+        index -= 1;
+    }
+    [self gotoPageWithPageIndex:index];
+}
+- (void)gotoNextPage{
+    NSArray * array = self.pageViewController.viewControllers;
+    NSInteger currentPageIndex = [array.firstObject pageIndex];
+    NSInteger index = currentPageIndex;
+    if(self.totalPages-1 == index){
+        index = 0;
+    }else{
+        index += 1;
+    }
+    [self gotoPageWithPageIndex:index];
+    
+}
+#pragma mark 切换到指定页面
+- (void)gotoPageWithPageIndex:(NSInteger)pageIndex{
+    UIPageViewControllerNavigationDirection direction = UIPageViewControllerNavigationDirectionForward;
+    YXImageViewController * contentViewController = [self viewControllerAtIndex:pageIndex];
+    [self.pageViewController setViewControllers:@[contentViewController] direction:direction animated:YES completion:NULL];
+    self.pageControl.currentPage = pageIndex;
+}
+
+#pragma mark  UIPageViewController数据源与代理方法
+-(UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerBeforeViewController:(UIViewController *)viewController
+{
+    NSUInteger index = ((YXImageViewController *)viewController).pageIndex;
+    if(0 == index){
+        index = self.totalPages -1;
+    }else{
+        index -= 1;
+    }
+    return [self viewControllerAtIndex:index];
+}
+
+-(UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerAfterViewController:(UIViewController *)viewController
+{
+    NSUInteger index = ((YXImageViewController *)viewController).pageIndex;
+    if(self.totalPages-1 == index){
+        index = 0;
+    }else{
+        index += 1;
+    }
+    return [self viewControllerAtIndex:index];
+}
+-(void)pageViewController:(UIPageViewController *)pageViewController didFinishAnimating:(BOOL)finished previousViewControllers:(NSArray *)previousViewControllers transitionCompleted:(BOOL)completed{
+    NSLog(@"didFinishAnimating");
+    if(completed){
+        NSArray * array = self.pageViewController.viewControllers;
+        NSInteger currentPageIndex = [array.firstObject pageIndex];
+        self.pageControl.currentPage = currentPageIndex;
+    }
+}
+-(void)pageViewController:(UIPageViewController *)pageViewController willTransitionToViewControllers:(NSArray *)pendingViewControllers{
+    NSLog(@"willTransitionToViewControllers");
+    self.seconds = 0;
+}
+
+
+
+-(YXImageViewController *)viewControllerAtIndex:(NSUInteger)index
+{
+    YXImageViewController * pageContentViewController = [[YXImageViewController alloc] init];
+    [pageContentViewController setSingleTapHandle:^(YXImageViewController *imageViewController, UITapGestureRecognizer *tapGesture) {
+        if(self.imageSingleTapHandleBlock){
+            self.imageSingleTapHandleBlock(imageViewController.pageIndex);
+        }
+    }];
+    [pageContentViewController setLongPressHandle:^(YXImageViewController * imageViewController, UILongPressGestureRecognizer*longPressGesture){
+        if(longPressGesture.state == UIGestureRecognizerStateBegan){
+            self.isLongPressing = YES;
+        }else {
+            self.isLongPressing = NO;
+        }
+    }];
+    pageContentViewController.size = self.pageView.frame.size;
+    pageContentViewController.pageIndex = index;
+    if(self.imageOrUrlAtPageIndexBlock){
+        id imageOrurl = self.imageOrUrlAtPageIndexBlock(index);
+        if([imageOrurl isKindOfClass:[UIImage class]]){
+            pageContentViewController.image = imageOrurl;
+        }else if([imageOrurl isKindOfClass:[NSURL class]]){
+            pageContentViewController.url = imageOrurl;
+        }
+    }else if(self.defaultImageAtPageIndexBlock){
+        UIImage * defalultImage = self.defaultImageAtPageIndexBlock(index);
+        pageContentViewController.defaultImage = defalultImage;
+    }else{
+        
+    }
+    return pageContentViewController;
+}
+-(void)dealloc{
+    [self endTimer];
+}
+@end

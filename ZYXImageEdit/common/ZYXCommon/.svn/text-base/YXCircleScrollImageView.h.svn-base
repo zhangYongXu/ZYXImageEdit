@@ -1,0 +1,26 @@
+//
+//  YXCircleScrollImageView.h
+//  YXebookReader
+//
+//  Created by BZBY on 15/12/8.
+//  Copyright (c) 2015年 BZBY. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+@class YXCircleScrollImageView;
+
+typedef void (^SingleTapHandleBlock)(NSInteger index);
+typedef NSInteger(^ImageNumberBlock)(YXCircleScrollImageView * view);
+typedef id(^ImageOrUrlAtIndexBlock)(NSInteger index);
+typedef UIImage*(^ImageDefaultAtIndexBlock)(NSInteger index);
+
+@interface YXCircleScrollImageView : UIView
+@property (copy,nonatomic) SingleTapHandleBlock singleTapHandle;
+@property (copy,nonatomic) ImageNumberBlock imageNumber;
+@property (copy,nonatomic) ImageOrUrlAtIndexBlock imageOrUrlAtIndex;
+@property (copy,nonatomic) ImageDefaultAtIndexBlock imageDefaultAtIndex;
+
+
++(instancetype)circleScrollImageViewWithFrame:(CGRect)frame ImageNumber:(ImageNumberBlock)imageNumberBlock ImageOrUrlAtIndex:(ImageOrUrlAtIndexBlock)ImageOrUrlAtIndexBlock ImageDefaultAtIndex:(ImageDefaultAtIndexBlock)imageDefaultAtIndexBlock SingleTapHandle:(SingleTapHandleBlock)singleTapHandleBlock;
+-(void)reloadData;
+@end

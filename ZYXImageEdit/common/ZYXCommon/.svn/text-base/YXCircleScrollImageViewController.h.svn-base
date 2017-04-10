@@ -1,0 +1,29 @@
+//
+//  YXCircleScrollView.h
+//  YXebookReader
+//
+//  Created by BZBY on 15/12/4.
+//  Copyright (c) 2015年 BZBY. All rights reserved.
+//
+
+@class YXCircleScrollImageViewController;
+typedef void (^ImageSingleTapHandleBlock)(NSInteger pageIndex);
+typedef NSInteger(^TotalPagesBlock)(YXCircleScrollImageViewController * viewController);
+typedef id(^ImageOrUrlAtPageIndexBlock)(NSInteger pageIndex);
+typedef UIImage*(^DefaultImageAtPageIndexBlock)(NSInteger pageIndex);
+
+@interface YXCircleScrollImageViewController : UIViewController
+
+@property (assign,nonatomic) CGRect frame;
+
+
+@property (copy,nonatomic) ImageSingleTapHandleBlock imageSingleTapHandleBlock;
+@property (copy,nonatomic) TotalPagesBlock totalPagesBlock;
+@property (copy,nonatomic) ImageOrUrlAtPageIndexBlock imageOrUrlAtPageIndexBlock;
+@property (copy,nonatomic) DefaultImageAtPageIndexBlock defaultImageAtPageIndexBlock;
+
+
+- (instancetype)initWithTotalPages:(TotalPagesBlock)totalPages ImageOrUrlAtPageIndex:(ImageOrUrlAtPageIndexBlock)imageOrUrlAtPageIndex DefaultImageAtPageIndexBlock:(DefaultImageAtPageIndexBlock)defaultImageAtPageIndex ImageSingleTapHandleBlock:(ImageSingleTapHandleBlock)imageSingleTapHandle;
+@end
+
+

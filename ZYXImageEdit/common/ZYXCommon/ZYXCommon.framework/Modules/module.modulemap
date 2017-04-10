@@ -1,0 +1,6 @@
+framework module ZYXCommon {
+  umbrella header "ZYXCommon.h"
+
+  export *
+  module * { export * }
+}

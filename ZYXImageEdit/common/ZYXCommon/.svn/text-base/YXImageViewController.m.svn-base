@@ -1,0 +1,84 @@
+//
+//  YXCircleScrollViewController.m
+//  YXebookReader
+//
+//  Created by BZBY on 15/12/4.
+//  Copyright (c) 2015年 BZBY. All rights reserved.
+//
+
+#import "YXImageViewController.h"
+#import "UIImageView+URL.h"
+@interface YXImageViewController ()
+
+
+
+@end
+
+@implementation YXImageViewController
+
+-(void)viewDidLoad{
+    [super viewDidLoad];
+    [self initData];
+    [self initUI];
+    [self createImageView];
+    [self addGesture];
+    [self refreshUI];
+}
+
+
+-(void)initData{
+    
+}
+-(void)initUI{
+    if(CGSizeEqualToSize(self.size, CGSizeZero)){
+        self.view.width =SCREEN_WIDHT;
+        self.view.height = SCREEN_HEIGHT;
+    }else{
+        self.view.width = self.size.width;
+        self.view.height = self.size.height;
+    }
+}
+-(void)refreshUI{
+    if(self.image){
+        self.imageView.image = self.image;
+    }else if(self.url){
+        [self.imageView setImageWithUrl:self.url placeholderImage:self.defaultImage];
+    }else{
+        if(!self.imageView.image){
+            NSLog(@"你没有给ImageView 设置图片");
+        }
+    }
+    
+}
+
+-(void)addGesture{
+    UITapGestureRecognizer * singleTapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(singleTapHandle:)];
+    singleTapGesture.numberOfTapsRequired = 1;
+    [self.view addGestureRecognizer:singleTapGesture];
+    
+    UILongPressGestureRecognizer * longPressGesture = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(longPressHandle:)];
+    [self.view addGestureRecognizer:longPressGesture];
+}
+-(void)singleTapHandle:(UITapGestureRecognizer *)tapGesture{
+    if(self.singleTapHandle){
+        self.singleTapHandle(self,tapGesture);
+    }
+}
+-(void)longPressHandle:(UILongPressGestureRecognizer*)longPressGesture{
+    if(self.longPressHandle){
+        self.longPressHandle(self,longPressGesture);
+    }
+}
+-(void)createImageView{
+    _imageView = [[UIImageView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:self.imageView];
+}
+
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    
+}
+
+
+@end
